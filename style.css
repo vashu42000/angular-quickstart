@@ -1,0 +1,366 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #362136;
+  height: 300vh;
+}
+.logo{
+  display: flex;
+}
+a:hover{
+   transform: scale(1.2);
+   z-index: 1;  
+   text-decoration: none;
+}
+a{
+  transition: 0.3s;
+}
+.l1{
+  background-image: url("game.jpeg");
+  height: 120px;
+  width:150px;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+.input{
+  height:40px;
+  width: 100vh;
+  margin-left: 70px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.d1{
+  display:flex;
+  
+}
+.d2{
+  background-image: url("candy crush.jpeg");
+  height: 210px;
+  width:210px;
+  background-position: center ;
+  background-size: cover;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.d3{
+  background-image: url("subway.png");
+  height: 210px;
+  width:210px;
+  background-position: center ;
+  background-size: cover;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.d4{
+  background-image: url("granny.jpeg");
+  height: 210px;
+  width:210px;
+  background-position: center ;
+  background-size: cover;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.d5{
+  background-image: url("temple.jpeg");
+  height: 210px;
+  width:210px;
+  background-position: center ;
+  background-size: cover;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.d6{
+  background-image: url("clash of clans.jpeg");
+  height: 210px;
+  width:210px;
+  background-position: center ;
+  background-size: cover;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.d7{
+  background-image: url("rally.jpeg");
+  height: 150px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  
+}
+.d8{
+  background-image: url("bike.jpeg");
+  height: 100px;
+  width: 70px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 50px;}
+.d9{
+  display: flex;
+}
+.d12{
+  background-image: url("among.jpeg");
+  height: 270px;
+  width:240px;
+  background-position: center ;
+  background-size: cover;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.d13{
+  background-image: url("shot.jpeg");
+  height: 210px;
+  width:210px;
+  background-position: center ;
+  background-size: cover;
+  margin-top: 30px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.d14{
+  background-image: url("hill.jpeg");
+  height: 210px;
+  width:210px;
+  background-position: center ;
+  background-size: cover;
+  margin-top: 30px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.d15{
+  background-image: url("mine.jpeg");
+  height: 170px;
+  width: 170px;
+  background-position: center ;
+  background-size: cover;
+  margin-top: 30px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.d16{
+  background-image: url("poopy.jpeg");
+  height: 170px;
+  width:170px;
+  background-position: center ;
+  background-size: cover;
+  margin-top: 30px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.d17{
+  background-image: url("fight.jpeg");
+  height: 150px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  
+}
+.d18{
+  background-image: url("vector.png");
+  height: 150px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.p1{
+  display: flex;
+}
+.p2{
+  background-image: url("brain.png");
+  height: 150px;
+  width: 200px;
+  background-size: cover;
+  border-radius: 10px;
+}
+.p3{
+  background-image: url("ball.jpeg");
+  height: 150px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.p4{
+  background-image: url("logo.jpg");
+  height: 150px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.p5{
+  background-image: url("venege.jpeg");
+  height: 150px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.p6{
+  background-image: url("league .jpeg");
+  height: 150px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.p7{
+  background-image: url("car.jpeg");
+  height: 150px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.a1{
+  display: flex;
+}
+.a2{
+  background-image: url("evony.jpeg");
+  height: 150px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-top:10px;
+}
+.a3{
+  background-image: url("bubble.jpeg");
+  height: 150px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top:10px;
+}
+.a4{
+  background-image: url("ronaldo.jpeg");
+  height: 150px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.a5{
+  background-image: url("soccer.jpeg");
+  height: 150px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.a6{
+  background-image: url("kohli.jpeg");
+  height: 150px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.a7{
+  background-image: url("who.jpg");
+  height: 150px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.newd{
+  display: flex;
+}
+.v1{
+  background-image: url("act.jpeg");
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.v2{
+  background-image: url("sport.jpeg");
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 10px;
+}
+.v3{
+  background-image: url("hor.jpeg");
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center;
+   margin-left: 10px;
+}
+.v4{
+  background-image: url("skill.jpeg");
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center;
+   margin-left: 10px;
+}
+.v5{
+  background-image: url("unnamed.webp");
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 10px;
+  
+}
+.yo{
+  font-size: 30px;
+}
+
+  
+
+  
+
+
+  
+
+  
